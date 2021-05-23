@@ -27,7 +27,7 @@ const addProductsToCart = ({ products }) => {
 // Ironhack Cart Test-suite
 describe('Ironhack Cart', () => {
   beforeAll(async () => {
-    await page.goto('http://localhost:4444');
+    await page.goto('http://127.0.0.1:4444');
   });
 
   beforeEach(async () => {
